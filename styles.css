@@ -1,0 +1,132 @@
+/*Estilos generales*/
+body{
+    font-family: "Arial, sans-sarif";
+    line-height: 1.6;
+    background-color: antiquewhite;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 80;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+
+}
+/* Encabezado*/
+header{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.skills{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+    
+.profile.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display:block;
+    margin:0 auto 15px;
+    
+}
+
+
+h1{
+    color: rgb(52, 82, 82);
+
+
+}
+
+h2{
+    color: rgb(89, 163, 97);
+    font-size: 1.3em;
+
+}
+h3{
+    margin: 5px 0;
+    font-size: 0.5em;
+    
+
+}
+/*listas*/
+  ul{
+    padding-left: 20px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+  }
+
+  .skills{
+   background-color: aqua;
+   color: aliceblue;
+   padding: 5px 10px;
+   border-radius: 5px;
+
+  }
+.skills li{
+    background: #3a863a;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.profile.pic{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin:0 auto 15px;
+}
+
+/*Estilos para el boton de imprimir*/
+.print-button-container {
+    text-align:center;
+    margin: 20px 0;
+
+    
+    }
+
+    .print-button{
+        background-color: rgb(14, 143, 255);
+        color: rgb(0, 255, 255);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+
+    }
+
+    .print-button:hover{
+        background-color: #3a863a;
+
+    }
+
+    /*estilos para imkpresion*/
+    @media print{
+       .print-button-container{
+          display: none;
+    }
+}
+        
+    
